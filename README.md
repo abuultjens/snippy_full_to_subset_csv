@@ -3,6 +3,8 @@ Takes a snippy.full.aln and subsets it by a list of isolate names and genomic po
 
 ```
 
-sh snippy_full_to_subset_csv.sh [snippy.clean.full.aln] [FOFN.txt] [POS_FILE.txt] [OUTFILE.csv]
+snippy-clean_full_aln [test.full.aln] > [test.full.clean.aln]
+
+sh snippy_full_to_subset_csv.sh [test.full.clean.aln] [FOFN.txt] [POS_FILE.txt] [OUTFILE.csv]
 
 ```
